@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.circle {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 28px;
+  width: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media(max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}

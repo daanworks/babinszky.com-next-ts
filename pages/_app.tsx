@@ -1,8 +1,14 @@
 import '../styles/globals.css'
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import type { AppProps } from 'next/app'
+import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
+  return <div style={{ visibility: !mounted ? 'hidden' : undefined }}><Component {...pageProps} /></div>
 }
 
 export default MyApp

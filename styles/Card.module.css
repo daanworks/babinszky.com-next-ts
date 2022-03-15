@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 284px;
+  padding: 2rem;
+  aspect-ratio: 3 / 2;
+  background: white;
+  -webkit-box-shadow: 10px 10px 0 0 #000000;
+  box-shadow: 10px 10px 0 0 #000000;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 338px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 258px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 276px;
+  }
+}
+
+@media(max-width: 366px) {
+  .container {
+    width: 180px;
+  }
+}
