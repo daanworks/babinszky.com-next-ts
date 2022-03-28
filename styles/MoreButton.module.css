@@ -10,3 +10,9 @@
   font-size: 12px;
   margin-right: 0.4rem;
 }
+
+@media(max-width: 366px) {
+  .text {
+    font-size: 10px;
+  }
+}

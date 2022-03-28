@@ -13,3 +13,9 @@
   padding-right: 2rem;
   color: black;
 }
+
+@media(max-width: 366px) {
+  .container {
+    font-size: 12px;
+  }
+}

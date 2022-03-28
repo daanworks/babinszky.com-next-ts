@@ -33,7 +33,14 @@
 }
 
 @media(max-width: 366px) {
+  .title {
+    font-size: 12px;
+  }
   .text {
-    font-size: 10px;
+    display: none;
+  }
+  .quote {
+    height: 24px;
+    width: 48px;
   }
 }

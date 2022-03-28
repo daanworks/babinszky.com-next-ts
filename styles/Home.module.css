@@ -29,7 +29,7 @@
 
 @media(max-width: 576px) {
   .container {
-    width: 340px;
+    width: 276px;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -37,6 +37,6 @@
 
 @media(max-width: 366px) {
   .container {
-    width: 244px;
+    width: 180px;
   }
 }
