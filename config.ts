@@ -23,12 +23,12 @@ const config: config = [
   {
     id: 4,
     cardType: IMAGE,
-    image: '/images/homosapien.jpeg'
+    image: '/images/ui.png'
   },
   {
     id: 5,
     cardType: IMAGE,
-    image: '/images/ui.png'
+    image: '/images/homosapien.jpeg',
   },
   {
     id: 6,
