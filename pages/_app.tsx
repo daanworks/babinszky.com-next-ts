@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [mounted, setMounted] = useState(false)
   useEffect(() => setMounted(true), [])
 
-  return <div><Component {...pageProps} /></div>
+  return <div style={{visibility: !mounted ? 'hidden' : undefined}}><Component {...pageProps} /></div>
 }
 
 export default MyApp
