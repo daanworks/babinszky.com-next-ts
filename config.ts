@@ -27,8 +27,8 @@ const config: config = [
   },
   {
     id: 5,
-    cardType: STATEMENT,
-    text: ''
+    cardType: IMAGE,
+    image: '/images/ui.png'
   },
   {
     id: 6,
