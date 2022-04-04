@@ -5,9 +5,9 @@ import Header from "../components/Header";
 import config from "../config";
 import Card from "../components/Card";
 
-// export const getStaticProps = () => {
-//   return { props: { content: config } }
-// }
+export const getStaticProps = () => {
+  return { props: { content: config } }
+}
 
 
 const Home: NextPage = (props: any) => {
@@ -22,7 +22,7 @@ const Home: NextPage = (props: any) => {
         <Header />
         <div className={styles.main}>
           {
-            config.map((card: any) =>
+            props.content.map((card: any) =>
               <Card
                 key={card.id}
                 cardType={card.cardType}
